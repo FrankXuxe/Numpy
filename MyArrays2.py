@@ -69,4 +69,15 @@ raveled[0] = 100
 
 flattened[1] = 100
 
+grades = np.array([[87, 96, 70], [100, 87, 90]])
+
+# Flip the array
+grades.T
+
+grades2 = np.array([[94, 77, 90], [100, 81, 82]])
+
+h_grades = np.hstack((grades, grades2))
+
+v_grades = np.vstack((grades, grades2))
+
 print()
