@@ -67,4 +67,19 @@ grades_by_exam = grades.mean(axis=0)
 # calculate average on all row for each row
 grades_by_student = grades.mean(axis=1)
 
+num07 = np.array([1, 4, 9, 16, 25, 36])
+num08 = np.sqrt(num07)
+
+num09 = np.array([10, 20, 30, 40, 50, 60])
+num10 = np.add(num07, num09)
+# same as
+num10 = num07 + num09
+
+num11 = np.multiply(num09, 5)
+num11 = num09 * 5
+
+num12 = num09.reshape(2, 3)
+num13 = np.array([2, 4, 6])
+num14 = np.multiply(num12, num13)
+
 print()
